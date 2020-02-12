@@ -23,7 +23,7 @@ coverage
 *.lcov
 
 # Compiled output
-build
+dist
 
 # Dependency directories
 node_modules/
