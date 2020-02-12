@@ -1,0 +1,9 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "React boilerplate made with love.",
+  "main": "src/index.js",
+  "repository": "https://github.com/enbermudas/react-boilerplate",
+  "author": "Enrique Bermúdez <enbermudez96@gmail.com>",
+  "license": "MIT"
+}
