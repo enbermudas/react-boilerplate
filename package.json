@@ -5,5 +5,12 @@
   "main": "src/index.js",
   "repository": "https://github.com/enbermudas/react-boilerplate",
   "author": "Enrique Bermúdez <enbermudez96@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  }
 }
