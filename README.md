@@ -9,10 +9,10 @@ React boilerplate made with love.
 
 ## :sparkles: Features
 
-- Tests with Jest
-- Continuous integration with Travis CI
-- Code coverage with Coveralls
-- ECMAScript 2015+ code compiling with Babel
-- Linting with eslint, prettier and Airbnb style guide
-- Static type checking with Flow
-- Build with webpack
+-   Tests with Jest
+-   Continuous integration with Travis CI
+-   Code coverage with Coveralls
+-   ECMAScript 2015+ code compiling with Babel
+-   Linting with eslint, prettier and Airbnb style guide
+-   Static type checking with Flow
+-   Build with webpack

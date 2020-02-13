@@ -25,12 +25,10 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebPackPlugin(
-      {
-        template: 'public/index.html',
-        filename: 'index.html',
-        favicon: 'public/favicon.ico',
-      },
-    ),
+    new HtmlWebPackPlugin({
+      template: 'public/index.html',
+      filename: 'index.html',
+      favicon: 'public/favicon.ico',
+    }),
   ],
 };
