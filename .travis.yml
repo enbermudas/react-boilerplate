@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 12.14.0
+  - stable
+branches:
+  only:
+    - master
+cache:
+  directories:
+    - node_modules
+before_install:
+  - yarn upgrade
+install:
+  - yarn
+script:
+  - yarn test
+  - yarn coveralls
