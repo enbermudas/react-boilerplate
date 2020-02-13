@@ -1,8 +1,8 @@
 # react-boilerplate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.com/enbermudas/react-boilerplate.svg?branch=master)](https://travis-ci.com/enbermudas/react-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/enbermudas/react-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/enbermudas/react-boilerplate?branch=master)
+[![enbermudas](https://circleci.com/gh/enbermudas/react-boilerplate.svg?style=shield)](https://circleci.com/gh/enbermudez96/react-boilerplate)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3cc5a12bd6a54958826a109dcc14b42a)](https://www.codacy.com/manual/enbermudez96/react-boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=enbermudas/react-boilerplate&amp;utm_campaign=Badge_Grade)
 [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 React boilerplate made with love.
@@ -10,8 +10,8 @@ React boilerplate made with love.
 ## :sparkles: Features
 
 -   Tests with Jest
--   Continuous integration with Travis CI
--   Code coverage with Coveralls
+-   Continuous integration with CircleCI
+-   Code coverage with Codacy
 -   ECMAScript 2015+ code compiling with Babel
 -   Linting with eslint, prettier and Airbnb style guide
 -   Static type checking with Flow
