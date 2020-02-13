@@ -4,4 +4,5 @@ import React from 'react';
 import reactDOM from 'react-dom';
 import App from './App';
 
-reactDOM.render(<App />, document.querySelector('#app'));
+const rootElement = document.querySelector('#app');
+if (rootElement !== null) reactDOM.render(<App />, rootElement);
