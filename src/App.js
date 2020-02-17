@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import main from './assets/styles/main.scss';
+import main from './assets/styles/main.scss'; // eslint-disable-line no-unused-vars
 
 const App = () => (
   <>
