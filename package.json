@@ -47,7 +47,7 @@
     "lint:fix": "yarn lint --fix",
     "lint:flow": "yarn lint:fix && yarn flow",
     "start": "webpack-dev-server --open --mode development",
-    "test": "jest"
+    "test": "jest --config jest.config.js"
   },
   "engines": {
     "node": ">= 8.3.0",
