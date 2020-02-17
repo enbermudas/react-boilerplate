@@ -13,6 +13,7 @@ React boilerplate made with love.
 -   Continuous integration with CircleCI
 -   Code coverage with Codacy
 -   ECMAScript 2015+ code compiling with Babel
--   Linting with eslint, prettier and Airbnb style guide
+-   JS Linting with eslint, prettier and Airbnb style guide
+-   Scss support and linting with stylint
 -   Static type checking with Flow
 -   Build with webpack
