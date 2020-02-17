@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   module: {
@@ -22,6 +23,11 @@ module.exports = {
         test: /\.jpe?g$|\.ico$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/,
         loader: 'file-loader?name=[name].[ext]',
       },
+      {
+        test: /\.(css|scss|sass)$/,
+        exclude: /node_modules/,
+        loader: [MiniCSSExtractPlugin.loader, 'css-loader', 'sass-loader'],
+      },
     ],
   },
   plugins: [
@@ -30,5 +36,6 @@ module.exports = {
       filename: 'index.html',
       favicon: 'public/favicon.ico',
     }),
+    new MiniCSSExtractPlugin(),
   ],
 };
