@@ -44,9 +44,10 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "eslint": "eslint 'src/**/*.js' --fix",
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint 'src/**/*.js' --fix",
     "flow": "flow",
-    "lint:full": "yarn eslint && yarn stlint && yarn flow",
+    "lint:full": "yarn lint:fix && yarn stlint && yarn flow",
     "start": "webpack-dev-server --open --mode development",
     "stlint": "stylelint 'src/**/*.scss'",
     "test": "jest --config jest.config.js"
